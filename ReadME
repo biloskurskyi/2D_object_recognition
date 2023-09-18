@@ -1,0 +1,27 @@
+Greetings! 
+This program consists of 3 files in which I learned and tested the workflow  
+process, and 4 files in which I took parts from each and created a final  
+model. The first code uses the SIFT algorithm to find key points and  
+correspondences between two pairs of images (templates and references). It  
+defines a function to find and visualize these correspondences using the  
+OpenCV and Matplotlib libraries. The second code also utilizes the SIFT  
+algorithm, but its main purpose is to remove the white background from the  
+template and reference images before searching for correspondences. It  
+then determines a homographic transformation to align the template with  
+respect to the reference. The results are displayed using Matplotlib,  
+including the display of the template and the aligned template. The third  
+code employs the SIFT algorithm to search for key points and  
+correspondences between two pairs of images (templates and references).  
+Afterward, it determines a homography matrix for aligning the template in  
+three-dimensional space. The results are displayed as three-dimensional  
+graphics using the Matplotlib library, including the construction of a cuboid  
+that represents the orientation and location of the template in space. Also,  
+before the final program, I made some edits to the template_tea_cup_pad  
+and created template_tea_cup_pad_2 to improve accuracy(but I used both  
+files in the program). Finally, the last code involves the implementation of  
+the SIFT algorithm to find key points and correspondences between  
+templates and references in an image. Subsequently, it determines the  
+homography matrix that describes the orientation and position of the  
+template in three-dimensional space. The results are displayed in threedimensional graphics using the Matplotlib library, including the construction  
+of a cuboid that visualizes the geometric information about the template in  
+three-dimensional space.  
